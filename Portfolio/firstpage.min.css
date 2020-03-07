@@ -1,0 +1,584 @@
+/* ANIMATION */
+
+  .devju
+  {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    from 
+    {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to 
+    {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+/* ANIMATION TITRE CV */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COULEUR PAGE+COULEUR TEXTE PAGE */
+*{
+    box-sizing: border-box;
+}
+
+body 
+{
+    color:rgb(0, 0, 0);
+    background-color: white;  
+}
+
+/*  a catégoriser */
+p
+{
+    display:flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align:center;
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid border;
+    }
+/* bloc" Qui suis-je?"déplacer centre */
+p
+{
+    max-width: 700px;
+    padding: 15px;
+    
+    font-style: normal;
+    font-size: 1em;
+}
+
+
+/* les SOUS-TITRES */
+h2
+{     
+     text-align:center;
+     margin: 0 0 0
+}
+
+.contact
+{
+    text-align:center
+    
+
+}
+/* a catégoriser */
+
+
+
+
+
+
+
+  /* gros titre */
+.CB {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 6em;
+    margin: -50px 0px 0px 0px;
+    color: rgb(7, 23, 59);
+    font-family: 'Shadows Into Light', cursive;
+
+  }
+  /* petit titre en dessous */
+.devju
+  {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 40px 0px 0px 0px;
+    color: rgb(22, 22, 31)
+  }
+  
+
+
+
+/* IMAGE PRINCIAL*/
+img
+{    
+     display:block;
+     width: 100%;
+     margin-left:auto;
+     margin-right:auto;
+     z-index: -1;
+    
+}
+
+
+ 
+/* MENU  */
+
+      
+.Menu 
+{
+        position: absolute;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+
+        
+}
+
+li 
+{
+    float: right;
+}
+li a 
+{
+    display: inline-block;
+    color: rgb(168, 201, 185);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.active,li a,li,ul 
+{
+      display: block;
+}
+
+ /* couleur de survol */
+li a:hover 
+{
+
+    background-color: rgb(113, 145, 116);
+    color: white;
+}
+
+.active 
+{
+        background-color: rgb(113, 145, 116);
+        color: white;
+}  
+      
+
+
+
+
+
+
+/* Qui suis-je? */
+
+/* photo de moi */
+.image2
+{
+    display:block;
+     width: 15%;
+     margin: -300px 0px 80px 300px;
+}
+
+/* fond */
+.container2
+{
+    background-color: rgb(168, 201, 185);
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0px 0px 0px;
+    box-shadow: 10px 10px 5px rgb(233, 232, 232);
+
+  
+}
+/* titre qui suis-je? */
+.QSJ
+{
+    color: rgb(7, 23, 59);
+    font-size: 3em;
+    text-align: center;
+    margin: 50px 20px 0px 0px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+/* texte qui suis-je? */
+.txtqsj
+{
+    max-width: 700px;
+    margin: 70px -50px 80px 500px;
+    padding: 15px;
+    text-align: left;
+    font-style: normal;
+    font-size: 1em;
+    color: white;
+    width: 45%;
+    font-size: 0.89em;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+
+/* cv */
+
+/* titre mon cv */
+.cv
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 160px 0px 0px 0px;
+    color: rgb(7, 23, 59);
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* fond cv */
+.container21
+{
+    background-color: #c4920a;
+    text-align: center;
+    padding: 3px;
+    margin: 100px 50px 800px 50px;
+    border-radius: 20px;
+}
+
+
+/* formation */
+/* titre formation */
+
+.fore
+{
+    margin: 30px 0px 100px -10px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-size: 1.6em;
+    color: rgb(7, 23, 59);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.école
+{
+    margin: -40px 150px 50px 300px;
+    width: 150%;
+    text-align: center;
+    font-style: normal;
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+}
+
+
+/* expériences */
+.h41
+{
+    max-width: 700px;
+    margin: -40px 0px 50px 0px;
+    padding: 25px;
+    text-align: left;
+    color: rgb(7, 23, 59);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+
+}
+.date
+{
+    max-width: 700px;
+    margin: -80px 700px 0px 0px;
+    padding: 15px;
+    text-align: left;
+    color: rgb(7, 23, 59)
+
+    
+}
+
+
+.archi 
+{
+    max-width: 700px;
+    margin: 20px 600px 0px 0px;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #abecce;
+}
+
+.bij
+{
+    max-width: 700px;
+    margin: 20px 600px 0px 0px;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #abecce;
+}
+
+
+
+.txt1
+{
+    margin: 20px 600px 0px 0px;
+    text-align: left;
+    padding: 15px;
+    width: 50%;
+    font-size: 0.9em;
+    font-style: oblique;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.date1
+{
+    margin: 20px 600px 0px 0px;
+    text-align: left;
+    padding: 15px;
+    color: rgb(7, 23, 59)
+
+}
+
+.txt2
+{
+    margin: 20px 600px 600px 0px;
+    text-align: left;
+    padding: 15px;
+    width: 50%;
+    font-size: 0.9em;
+    font-style: oblique;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* compétences */
+.h42
+{
+    max-width: 700px;
+    margin: -1850px 2500px 900px 700px;
+    padding: 15px;
+    text-align: left;
+    color: rgb(7, 23, 59);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+}
+.suiteA
+{
+    max-width: 700px;
+    margin: -800px 180px 350px 520px;
+    padding: 15px;
+    text-align:left;
+}
+/* titre photoshop */
+.photoshop
+{
+    margin: -10px 270px 0px 0px;
+    color: white;
+    font-weight: bold;
+
+
+}
+/* titre illustrator */
+.ILLUSTRATOR
+{
+    margin: 50px 260px 0px 0px;
+    color: white;
+    font-weight: bold;
+
+
+}
+/* titre indesign */
+.INDESIGN
+{
+    margin: 70px 290px 0px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* image photoshop */
+.photoshop1
+{
+     
+    display:block;
+    width: 5%;
+    margin: -530px 80px 500px 1000px;
+}
+
+/* image illustrator */
+.illustrator
+{
+     
+    display:block;
+    width: 8%;
+    margin: -500px 100px 500px 1000px;
+    
+}
+/* image indesign */
+.indesign1
+{
+     
+    display:block;
+    width: 5%;
+    margin: -450px 0px 500px 1000px;
+}
+
+.href
+{
+    
+    margin: 50px 50px 0px 0px;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* titre contact */
+.Contact
+{
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 160px 0px 0px 0px;
+    color: rgb(7, 23, 59);
+    font-size: 2.5em;
+   
+}
+
+
+
+ 
+footer
+{
+    
+        background-color: rgb(155, 199, 201);
+        text-align: center;
+        padding: 20px;
+        max-width: 1500px;
+        margin-top: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+
+.container5
+{
+    text-align: center;
+    color: white;
+    
+}
+
+/* formulaire */
+input[type=text] 
+{
+    border: 2px solid rgb(151, 151, 151);
+
+}
+
+
+#email
+{
+    border: 2px solid rgb(151, 151, 151);
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* la bordure ce color en cliquant à l'intérieur */
+input[type=text]:focus 
+{
+    border: 3px solid rgb(255, 158, 182);
+}
+
+/* la zone d'écriture s'agrandit en cliquant dedans */
+input[type=text] 
+{
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border: 2px solid rgb(151, 151, 151);
+
+}
+  
+input[type=text]:focus 
+{
+    width: 50%;
+}
+
+.coo
+{
+      
+    font-family: 'Times New Roman', Times, serif;
+    margin: 100px 0px 0px 0px;
+    color: rgb(7, 23, 59);
+    font-size: 2.5em;
+}
+
+.tel
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
