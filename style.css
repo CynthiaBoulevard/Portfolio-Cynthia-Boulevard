@@ -3,7 +3,7 @@ body
     overflow-x : hidden;
 }
 
-/* MENU ************************************************************************************************************/
+/* MENU *************************************************/
 
 .navbarnav  
     {
@@ -37,7 +37,7 @@ body
 
 
 
-/* PETIT TEXTE À PROPOS *******************************************************************************************/
+/* PETIT TEXTE À PROPOS *********************************/
 
 #apropos
     {
@@ -101,7 +101,7 @@ body
 
 
 
-/* PARTIE 3 DESCRIPTIONS **************************************************************************************************/
+/* PARTIE 3 DESCRIPTIONS **********************************/
 
 .descrip
     {
@@ -186,7 +186,7 @@ body
 
 
 
-/* GALERIE PHOTO **************************************************************************************************/
+/* GALERIE PHOTO **************************************/
 
 
 
@@ -376,6 +376,8 @@ footer
     margin-top: 70px;
     margin-bottom: 80px;
     font-size: 25px;
+    color:rgb(156, 155, 154);
+
 
 }
 
@@ -387,6 +389,30 @@ footer
 }
 
 
+/* icones **************************/
+
+#ic1
+{
+    margin-top: -40px;
+    margin-bottom: 60px;
+    margin-right: -700px;
+}
+
+
+#ic2
+{
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+
+#ic3
+{
+    margin-top: -40px;
+    margin-bottom: 60px;
+    margin-left: -700px;
+    
+}
 
 
 
@@ -394,6 +420,31 @@ footer
 
 
 
+#ic1:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: transform .2s;
+}
+
+
+#ic2:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: transform .2s;
+}
+
+
+#ic3:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: transform .2s;
+}
 
 
 /* PARCOUR CSS-------------------------------------------------------------------------------------------------------- */
@@ -799,7 +850,7 @@ footer
 
 .img1-fluidee
 {
-    margin-left: 10px;   
+    margin-left: 5px;   
 }
 
 
@@ -808,3 +859,73 @@ footer
     font-family: 'Raleway', sans-serif;
 
 }
+
+
+
+/* Animation icone */
+       
+#phot1:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+#phot2:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#phot3:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#phot4:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#phot5:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#phot6:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#phot7:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#phot8:hover 
+{
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
